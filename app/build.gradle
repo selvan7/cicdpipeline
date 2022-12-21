@@ -7,6 +7,16 @@ android {
     namespace 'com.example.cicdpipeline'
     compileSdk 33
 
+    signingConfigs {
+        release {
+            storeFile file("/cicdpipeline.jks")
+            storePassword "cicdpipeline"
+            keyAlias "cicdpipeline"
+            keyPassword "cicdpipeline"
+        }
+    }
+
+
     defaultConfig {
         applicationId "com.example.cicdpipeline"
         minSdk 21
