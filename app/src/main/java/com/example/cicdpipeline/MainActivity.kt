@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-// Test7 test1
+// Test7 test1 TEST7
         AppCenter.start(
-            application, "c23c2986-53bf-46aa-bc99-7fafc74cfc5b",
+            application, "00dc97ae-479d-4201-9f03-92de1b397e34",
             Analytics::class.java, Crashes::class.java
         )
 
